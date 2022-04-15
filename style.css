@@ -1,0 +1,536 @@
+@charset "UTF-8";
+
+/* reset */
+@import url(reset.css);
+
+
+/* font 12pxの場合：9px-75% / 10px-83.3% / 11px-91.6% / 12px-100% / 13px-108.3% / 14px-116.6% / 15px-125% / 16px-133.3% / 18px-150% / 20px-166.6% */
+
+/* 共有 -------------------------------------------------------- */
+body,
+#Home h1,
+#Latest,
+#Wrapper,
+#Work,
+#Work #Footer {
+	background-color: #f9f9f9;
+	}
+
+a.Border {
+	border-bottom: dotted 1px;
+	border-color: #cdcdcd;
+	}
+	
+#Header dl,
+#Wrapper,
+#About #Share {
+	width: 1096px;
+	}
+
+/* ボディ --------------------------------------------------------------- */
+body {
+	width: 100%;
+	font-size: 12px;
+	font-family: 'Dosis', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", cursive;
+	word-wrap: break-word;
+	letter-spacing: 1px;
+	}
+
+body, a {
+	line-height: 1;
+	color: #231815;
+	}
+	
+body.Fixed {
+	position: fixed;
+	overflow-y: scroll;
+	}
+	
+/* ヘッダー ------------------------------------------------------------ */
+#Header {
+	width: 100%;
+	text-align: center;
+	z-index: 99;
+	position: fixed;
+	left: 0;
+	top: 0;
+	}
+
+#Header dl {
+	font-size: 10px;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px -550px;
+	position: absolute;
+	left: 50%;
+	top: 10px;
+	}
+
+#Header dl,
+#Header dd a {
+	color: #aaaaaa;
+	}
+	
+#Header dt {
+	float: left;
+	}
+
+#Header dd {
+	float: right;
+	margin-left: 20px;
+	}
+
+#Header dd a {
+	display: inline;
+	}
+
+/* ロゴ --------------------------------------------------------------- */
+#Logo {
+	width: 100%;
+	text-align: center;
+	padding: 300px 0px 300px 0px;
+	font-size: 30px;
+	letter-spacing: 3px;
+	}
+
+#Logo,
+#Logo h1,
+#Logo h1 a {
+	background-color: #ffffff;
+	}
+	
+#Logo h1,
+#Logo h1 a {
+	display: inline;
+	}
+
+#Logo h1 span {
+	padding-top: 5px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	color: #aaaaaa;
+	}
+	
+/* 包括 --------------------------------------------------------------- */
+#Wrapper {
+	margin: 0px auto 0px auto;
+	padding-top: 100px;
+	}
+	
+/* 制作実績 ------------------------------------------------------------ */
+#Works {
+	overflow: hidden;
+	margin: 0px -42px 50px -42px;
+	}
+
+#Works .Works {
+	float: left;
+	width: 152px;
+	height: 140px;
+	margin: 0px 42px 50px 42px;
+	}
+	
+#Works .Works h2,
+#Works .Works p {
+	width: 400px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
+
+#Works .Works h2 {
+	font-size: 15px;
+	padding-top: 10px;
+	}
+	
+#Works .Works p {
+	padding-top: 4px;
+	font-size: 10px;
+	color: #aaaaaa;
+	letter-spacing: 0;
+	}
+
+#Works .Works a,
+#Works .Works img {
+	width: 100%;
+	}
+
+/* コンセプト ------------------------------------------------------------ */
+#Concept {
+	overflow: hidden;
+	margin-bottom: 70px;
+	}
+
+#Concept p {
+	margin-bottom: 2em;
+	font-size: 116.6%;
+	line-height: 2.2;
+	letter-spacing: 2px;
+	}
+	
+/* アバウト ------------------------------------------------------------ */
+#About {
+	width: 100%;
+	padding: 80px 0px 30px 0px;
+	background-color: #ffffff;
+	}
+
+#About #Profile {
+	width: 976px;
+	height: 100px;
+	margin: 0px auto 70px auto;
+	padding-left: 120px;
+	background-image: url(../img/home/Face.jpg);
+	background-position: left top;
+	position: relative;
+	overflow: hidden;
+	}
+
+#About #Profile h3 {
+	font-size: 116.6%;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+	padding-top: 7px;
+	}
+
+#About #Profile p {
+	line-height: 1.8;
+	margin-bottom: 10px;
+	}
+
+#About #Profile ul {
+	margin: 0;
+	}
+
+#About #Profile li {
+	float: left;
+	margin-right: 20px;
+	}
+
+#About #Profile li#Contact,	
+#About #Profile li#Contact a {
+	}
+	
+#About #Profile li#Contact a {
+	display: inline;
+	color: #fe3939;
+	}
+	
+#About #Share {
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+	}
+
+#About #Share ul {
+	float: right;
+	}
+
+#About #Share li {
+	float: left;
+	font-size: 12px;
+	margin-left: 20px;
+	}
+
+#About #Share li a {
+	display: inline;
+	}
+	
+#About #Share li a span {
+	display: inline;
+	}
+
+/* 制作実績 -------------------------------------------------------- */
+#ModalWindow,
+#ModalWindow #Loading,
+#ModalWindow iframe {
+	position: fixed;
+	}
+	
+#ModalWindow {
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 9998;
+	background-image: url(../img/work/common/ModalWindowBg.png);
+	background-repeat: repeat;
+	left: 0;
+	top: 0;
+	}
+	
+* html #ModalWindow {
+	position: absolute;
+	}
+	
+#ModalWindow #Loading {
+	width: 16px;
+	height: 16px;
+	margin: -8px 0px 0px -8px;
+	text-indent: -9999px;
+	background-image: url(../img/work/common/ModalWindowLoading.gif);
+	background-repeat: repeat;
+	left: 50%;
+	top: 50%;
+	}
+	
+#ModalWindow iframe {
+	left: 20px;
+	top: 20px;
+	}
+
+#Work #Wrapper {	
+	width: 98%;
+	margin: 1%;
+	padding: 0px 0px 50px 0px;
+	overflow: hidden;
+	background-image: none;
+	}
+	
+#Work #Container {
+	width: 100%;
+	margin: 0px auto 0px auto;
+	position: relative;
+	}
+	
+#Work #Title {
+	float: left;	
+	width: 480px;
+	padding: 40px;
+	}
+
+#Work #Title h1 {
+	margin: 10px 0px 20px 0px;
+	letter-spacing: 3px;
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 1.2;
+	}
+
+#Work #Title h1,
+#Work #Title dl {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
+	
+#Work #Title dl {
+	float: left;
+	margin: 0px 12px 7px 3px;
+	font-size: 11px;
+	letter-spacing: 0;
+	overflow: hidden;
+	}
+
+#Work #Title dt,
+#Work #Title dd {
+	float: left;
+	}
+	
+#Work #Title dt {
+	color: #bbbbbb;
+	}
+	
+#Work #Title dd {
+	}
+
+#Work #Title dd a,
+#Work #Title dd span {
+	display: inline;
+	}
+	
+#Work #Title dd span#HtCount,
+#Work #Title dd span#TwCount,
+#Work #Title dd span#FbCount {
+	color: #333333;
+	}
+
+#Work .Capture {
+	float: left;	
+	width: 500px;
+	padding: 30px;
+	}
+
+#Work .Capture img {
+	width: 100%;
+	}
+
+#Work #Footer {
+	width: 98%;
+	margin: 0% 1% 0% 1%;
+	position:  fixed;
+	left: 0;
+	bottom: 0;
+	}
+
+#Work #Footer ul {
+	width: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+	}
+
+#Work #Footer ul li {
+	cursor: pointer;
+	}
+
+#Work #Footer ul li#toHome {
+	float: left;
+	}
+
+#Work #Footer ul li#toTitle {
+	float: right;
+	}
+
+
+/* レスポンシブ --------------------------------------------------------------- */
+@media(max-width:600px){
+	/* 包括 --------------------------------------------------------------- */
+	#Wrapper {
+		width: 280px;
+		margin: 0px auto 0px auto;http://localhost/~naokifukushima/%E3%82%B5%E3%82%A4%E3%83%88/PW%EF%BC%9A%E3%83%95%E3%82%AF%E3%82%B7%E3%83%9E%E3%83%8A%E3%82%AA%E3%82%AD/external/img/work/common/toTitle.gif
+		padding-top: 50px;
+		}
+	
+	#Header {
+		display: none;
+		}
+	
+	/* ロゴ --------------------------------------------------------------- */
+	#Logo {
+		width: 100%;
+		text-align: center;
+		padding: 100px 0px 70px 0px;
+		font-size: 26px;
+		letter-spacing: 3px;
+		}
+	
+	#Logo h1 span {
+		font-size: 11px;
+		letter-spacing: 1.8px;
+		}
+		
+	/* ホームの制作実績 ------------------------------------------------------------ */
+	#Works {
+		overflow: hidden;
+		margin: 0px -20px 50px -20px;
+		}
+	
+	#Works .Works {
+		width: 120px;
+		height: 80px;
+		margin: 0px 20px 30px 20px;
+		}
+	
+	#Works .Works:hover {
+		opacity: 0.5;
+		filter: alpha(opacity=50);
+		}
+		
+	#Works .Works h2,
+	#Works .Works p {
+		display: none;
+		}
+	
+	/* コンセプト ------------------------------------------------------------ */
+	#Concept {
+		overflow: hidden;
+		margin-bottom: 30px;
+		}
+	
+	#Concept p {
+		margin-bottom: 2em;
+		font-size: 14px;
+		line-height: 1.7;
+		letter-spacing: 0;
+		}
+	
+	/* アバウト ------------------------------------------------------------ */
+	#About {
+		width: 100%;
+		padding: 50px 0px 30px 0px;
+		background-color: #ffffff;
+		}
+	
+	#About #Profile {
+		width: 280px;
+		height: auto;
+		margin: 0px auto 0px auto;
+		padding: 0px 0px 0px 0px;
+		background-image: none;
+		position: relative;
+		overflow: hidden;
+		}
+	
+	#About #Profile h3 {
+		font-size: 116.6%;
+		letter-spacing: 3px;
+		margin-bottom: 10px;
+		padding: 0;
+		}
+	
+	#About #Profile p {
+		line-height: 1.5;
+		margin: 0px 0px 15px 0px;
+		}
+	
+	#About #Profile ul {
+		float: none;
+		}
+	
+	#About #Profile li {
+		float: none;
+		margin: 0px 0px 5px 0px;
+		}
+
+	#About #Share {
+		display: none;
+		}
+			
+	
+	/* 各制作実績 ------------------------------------------------------------ */	
+	#Work #Wrapper {	
+		width: 280px;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+		}
+		
+	#Work #Container {
+		}
+	
+	#Work #Title {
+		width: 280px;
+		padding: 10px 0px 10px 0px;
+		}
+	
+	#Work #Title h1 {
+		font-size: 26px;
+		}
+	
+	#Work #Title dl {
+		float: none;
+		}
+		
+	#Work .Capture {
+		width: 280px;
+		padding: 20px 0px 20px 0px;
+		}
+	
+	#Work #Footer {
+		width: 100%;
+		margin: 0;
+		position:  fixed;
+		left: 0;
+		bottom: 0;
+		}
+	
+	#Work #Footer ul {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		}
+	
+	#Work #Footer ul li {
+		display: inline;
+		cursor: pointer;
+		}
+	
+	#Work #Footer ul li#toHome {
+		display: none;
+		}
+	}
