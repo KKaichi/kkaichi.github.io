@@ -167,13 +167,13 @@ body.Fixed {
 	}
 	
 /* アバウト ------------------------------------------------------------ */
-#About {
+#Contact {
 	width: 100%;
-	padding: 80px 0px 30px 0px;
+	padding: 20px 0px 30px 0px;
 	background-color: #ffffff;
 	}
 
-#About #Contact {
+#Contact {
 	width: 976px;
 	height: 100px;
 	margin: 0px auto 70px auto;
@@ -184,56 +184,56 @@ body.Fixed {
 	overflow: hidden;
 	}
 
-#About #Contact h3 {
+#Contact h3 {
 	font-size: 116.6%;
 	letter-spacing: 3px;
 	margin-bottom: 10px;
 	padding-top: 7px;
 	}
 
-#About #Contact p {
+#Contact p {
 	line-height: 1.8;
 	margin-bottom: 10px;
 	}
 
-#About #Contact ul {
+#Contact ul {
 	margin: 0;
 	}
 
-#About #Contact li {
+#Contact li {
 	float: left;
 	margin-right: 20px;
 	}
 
-#About #Contact li#Contact,	
-#About #Contact li#Contact a {
+#Contact li#Contact,	
+#Contact li#Contact a {
 	}
 	
-#About #Contact li#Contact a {
+#Contact li#Contact a {
 	display: inline;
 	color: #fe3939;
 	}
 	
-#About #Share {
+#Share {
 	margin: 0px auto 0px auto;
 	overflow: hidden;
 	}
 
-#About #Share ul {
+#Share ul {
 	float: right;
 	}
 
-#About #Share li {
+#Share li {
 	float: left;
 	font-size: 12px;
 	margin-left: 20px;
 	}
 
-#About #Share li a {
+#Share li a {
 	display: inline;
 	}
 	
-#About #Share li a span {
+#Share li a span {
 	display: inline;
 	}
 
