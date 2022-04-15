@@ -153,7 +153,7 @@ body.Fixed {
 	width: 100%;
 	}
 
-/* コンセプト ------------------------------------------------------------ */
+/* 経歴 ------------------------------------------------------------ */
 #Background {
 	overflow: hidden;
 	margin-bottom: 10px;
@@ -165,44 +165,24 @@ body.Fixed {
 	line-height: 2.2;
 	letter-spacing: 2px;
 	}
+/* 連絡先 ------------------------------------------------------------ */
+#Contact {
+	overflow: hidden;
+	margin-bottom: 10px;
+	}
+
+#Contact p {
+	margin-bottom: 10px;
+	font-size: 116.6%;
+	line-height: 2.2;
+	letter-spacing: 2px;
+	}
 	
 /* アバウト ------------------------------------------------------------ */
 #About {
 	width: 100%;
 	padding: 80px 0px 30px 0px;
 	background-color: #ffffff;
-	}
-
-#About #Contact {
-	width: 976px;
-	height: 100px;
-	margin: 0px auto 70px auto;
-	padding-left: 120px;
-	background-image: url(../img/home/Face.jpg);
-	background-position: left top;
-	position: relative;
-	overflow: hidden;
-	}
-
-#About #Contact h3 {
-	font-size: 116.6%;
-	letter-spacing: 3px;
-	margin-bottom: 10px;
-	padding-top: 7px;
-	}
-
-#About #Contact p {
-	line-height: 1.8;
-	margin-bottom: 10px;
-	}
-
-#About #Contact ul {
-	margin: 0;
-	}
-
-#About #Contact li {
-	float: left;
-	margin-right: 20px;
 	}
 
 #About #Share {
