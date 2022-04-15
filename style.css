@@ -173,7 +173,7 @@ body.Fixed {
 	background-color: #ffffff;
 	}
 
-#About #Profile {
+#About #Contact {
 	width: 976px;
 	height: 100px;
 	margin: 0px auto 70px auto;
@@ -184,36 +184,27 @@ body.Fixed {
 	overflow: hidden;
 	}
 
-#About #Profile h3 {
+#About #Contact h3 {
 	font-size: 116.6%;
 	letter-spacing: 3px;
 	margin-bottom: 10px;
 	padding-top: 7px;
 	}
 
-#About #Profile p {
+#About #Contact p {
 	line-height: 1.8;
 	margin-bottom: 10px;
 	}
 
-#About #Profile ul {
+#About #Contact ul {
 	margin: 0;
 	}
 
-#About #Profile li {
+#About #Contact li {
 	float: left;
 	margin-right: 20px;
 	}
 
-#About #Profile li#Contact,	
-#About #Profile li#Contact a {
-	}
-	
-#About #Profile li#Contact a {
-	display: inline;
-	color: #fe3939;
-	}
-	
 #About #Share {
 	margin: 0px auto 0px auto;
 	overflow: hidden;
