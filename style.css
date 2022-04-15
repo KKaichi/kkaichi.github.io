@@ -57,8 +57,8 @@ body.Fixed {
 	}
 
 #Header dl {
-	font-size: 30px;
-	letter-spacing: 1px;
+	font-size: 15px;
+	letter-spacing: 10px;
 	margin: 0px 0px 0px -550px;
 	position: absolute;
 	left: 50%;
@@ -167,76 +167,48 @@ body.Fixed {
 	}
 	
 /* アバウト ------------------------------------------------------------ */
-#Contact {
-	width: 100%;
-	padding: 20px 0px 30px 0px;
-	background-color: #ffffff;
-	}
-
-#Contact {
-	width: 976px;
-	height: 100px;
-	margin: 0px auto 70px auto;
-	padding-left: 120px;
-	background-image: url(../img/home/Face.jpg);
-	background-position: left top;
-	position: relative;
-	overflow: hidden;
-	}
-
-#Contact h3 {
-	font-size: 116.6%;
-	letter-spacing: 3px;
-	margin-bottom: 10px;
-	padding-top: 7px;
-	}
-
-#Contact p {
-	line-height: 1.8;
-	margin-bottom: 10px;
-	}
-
-#Contact ul {
-	margin: 0;
-	}
-
-#Contact li {
-	float: left;
-	margin-right: 20px;
-	}
-
-#Contact li#Contact,	
-#Contact li#Contact a {
-	}
+#About {
+		width: 100%;
+		padding: 50px 0px 30px 0px;
+		background-color: #ffffff;
+		}
 	
-#Contact li#Contact a {
-	display: inline;
-	color: #fe3939;
-	}
+#About #Profile {
+		width: 280px;
+		height: auto;
+		margin: 0px auto 0px auto;
+		padding: 0px 0px 0px 0px;
+		background-image: none;
+		position: relative;
+		overflow: hidden;
+		}
 	
-#Share {
-	margin: 0px auto 0px auto;
-	overflow: hidden;
-	}
-
-#Share ul {
-	float: right;
-	}
-
-#Share li {
-	float: left;
-	font-size: 12px;
-	margin-left: 20px;
-	}
-
-#Share li a {
-	display: inline;
-	}
+#About #Profile h3 {
+		font-size: 116.6%;
+		letter-spacing: 3px;
+		margin-bottom: 10px;
+		padding: 0;
+		}
 	
-#Share li a span {
-	display: inline;
-	}
+#About #Profile p {
+		line-height: 1.5;
+		margin: 0px 0px 15px 0px;
+		}
+	
+#About #Profile ul {
+		float: none;
+		}
+	
+#About #Profile li {
+		float: none;
+		margin: 0px 0px 5px 0px;
+		}
 
+#About #Share {
+		display: none;
+		}
+			
+	
 /* 制作実績 -------------------------------------------------------- */
 #ModalWindow,
 #ModalWindow #Loading,
