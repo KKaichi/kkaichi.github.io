@@ -156,11 +156,11 @@ body.Fixed {
 /* コンセプト ------------------------------------------------------------ */
 #Background {
 	overflow: hidden;
-	margin-bottom: 2px;
+	margin-bottom: 10px;
 	}
 
 #Background p {
-	margin-bottom: 2em;
+	margin-bottom: 10px;
 	font-size: 116.6%;
 	line-height: 2.2;
 	letter-spacing: 2px;
