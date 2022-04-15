@@ -446,7 +446,7 @@ body.Fixed {
 		background-color: #ffffff;
 		}
 	
-	#About #Profile {
+	#About #CONTACT {
 		width: 280px;
 		height: auto;
 		margin: 0px auto 0px auto;
@@ -456,23 +456,23 @@ body.Fixed {
 		overflow: hidden;
 		}
 	
-	#About #Profile h3 {
+	#About #CONTACT h3 {
 		font-size: 116.6%;
 		letter-spacing: 3px;
 		margin-bottom: 10px;
 		padding: 0;
 		}
 	
-	#About #Profile p {
+	#About #CONTACT p {
 		line-height: 1.5;
 		margin: 0px 0px 15px 0px;
 		}
 	
-	#About #Profile ul {
+	#About #CONTACT ul {
 		float: none;
 		}
 	
-	#About #Profile li {
+	#About #CONTACT li {
 		float: none;
 		margin: 0px 0px 5px 0px;
 		}
