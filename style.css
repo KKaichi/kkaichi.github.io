@@ -76,7 +76,7 @@ body.Fixed {
 
 #Header dd {
 	float: right;
-	margin-left: 20px;
+	margin-left: 10px;
 	}
 
 #Header dd a {
@@ -168,7 +168,7 @@ body.Fixed {
 /* 連絡先 ------------------------------------------------------------ */
 #Contact {
 	overflow: hidden;
-	margin-bottom: 10px;
+	margin-bottom: 70px;
 	}
 
 #Contact p {
@@ -191,11 +191,11 @@ body.Fixed {
 	}
 
 #About #Share ul {
-	float: left;
+	float: right;
 	}
 
 #About #Share li {
-	float: left;
+	float: right;
 	font-size: 12px;
 	margin-left: 20px;
 	}
