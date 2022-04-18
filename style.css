@@ -93,8 +93,9 @@ body.Fixed {
 	}
 
 #Logo,
-#Logo h1{
-	background-color: rgba(0,0,0,0.3);
+#Logo h1,
+#Logo h1 a {
+	background-color: transparent;
 	}
 	
 #Logo h1,
@@ -114,6 +115,7 @@ body.Fixed {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:center center; 
+	background-color: #ffffff;
 	}
 /* 包括 --------------------------------------------------------------- */
 #Wrapper {
