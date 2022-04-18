@@ -95,6 +95,11 @@ body.Fixed {
 #Logo,
 #Logo h1,
 #Logo h1 a {
+	background-color: #ffffff;
+	}
+	
+#Logo h1,
+#Logo h1 a {
 	display: inline;
 	}
 
@@ -104,6 +109,7 @@ body.Fixed {
 	letter-spacing: 2px;
 	color: #aaaaaa;
 	}
+
 #Logo #Logo_image{
 	position:relative;
 	background-image:url("/image/mihara.jpeg");             /* 画像のURLを指定       */
