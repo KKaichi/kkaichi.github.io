@@ -112,6 +112,7 @@ body.Fixed {
 
 .back-image{
 	background-image:url("/image/murasaki.png");
+	background-repeat: no-repeat;
 	width:auto;
 	height:auto;
 	}
