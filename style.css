@@ -113,7 +113,7 @@ body.Fixed {
 	background-image:url("/image/mihara.jpeg");             /* 画像のURLを指定       */
     	background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */              
     	width:100%;                                   /* 横幅のサイズを指定    */
-    	height:auto;                                 /* 縦幅のサイズを指定    */
+    	height:100%;                                 /* 縦幅のサイズを指定    */
 	}
 /* 包括 --------------------------------------------------------------- */
 #Wrapper {
