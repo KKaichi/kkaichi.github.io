@@ -111,8 +111,8 @@ body.Fixed {
 	}
 
 .back-image{
-background-image:url(/image/mihara.jpeg);
-}
+	background-image:url("/image/mihara.jpeg");
+	}
 /* 包括 --------------------------------------------------------------- */
 #Wrapper {
 	margin: 0px auto 0px auto;
