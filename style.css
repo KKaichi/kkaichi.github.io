@@ -95,7 +95,7 @@ body.Fixed {
 #Logo,
 #Logo h1,
 #Logo h1 a {
-	background-color: #ffffff;
+	background-color: rgba(0,0,0,0.1);
 	}
 	
 #Logo h1,
