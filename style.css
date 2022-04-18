@@ -122,6 +122,18 @@ body.Fixed {
 	margin: 0px auto 0px auto;
 	padding-top: 100px;
 	}
+/* プロフィール ------------------------------------------------------------ */
+#Profile {
+	overflow: hidden;
+	margin-bottom: 10px;
+	}
+
+#Profile p {
+	margin-bottom: 10px;
+	font-size: 116.6%;
+	line-height: 2.2;
+	letter-spacing: 2px;
+	}
 /* 経歴 ------------------------------------------------------------ */
 #Background {
 	overflow: hidden;
