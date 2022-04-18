@@ -112,6 +112,8 @@ body.Fixed {
 
 .back-image{
 	background-image:url("/image/murasaki.png");
+	width:auto;
+	height:auto;
 	}
 /* 包括 --------------------------------------------------------------- */
 #Wrapper {
