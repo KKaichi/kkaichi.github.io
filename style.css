@@ -114,6 +114,7 @@ body.Fixed {
 	background-image:url("/image/murasaki.png");
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:center center; 
 	margin:12px;
 	}
 /* 包括 --------------------------------------------------------------- */
