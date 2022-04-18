@@ -116,44 +116,6 @@ body.Fixed {
 	margin: 0px auto 0px auto;
 	padding-top: 100px;
 	}
-	
-/* 制作実績 ------------------------------------------------------------ */
-#Works {
-	overflow: hidden;
-	margin: 0px -42px 50px -42px;
-	}
-
-#Works .Works {
-	float: left;
-	width: 152px;
-	height: 140px;
-	margin: 0px 42px 50px 42px;
-	}
-	
-#Works .Works h2,
-#Works .Works p {
-	width: 400px;
-	opacity: 0;
-	filter: alpha(opacity=0);
-	}
-
-#Works .Works h2 {
-	font-size: 15px;
-	padding-top: 10px;
-	}
-	
-#Works .Works p {
-	padding-top: 4px;
-	font-size: 10px;
-	color: #aaaaaa;
-	letter-spacing: 0;
-	}
-
-#Works .Works a,
-#Works .Works img {
-	width: 100%;
-	}
-
 /* 経歴 ------------------------------------------------------------ */
 #Background {
 	overflow: hidden;
@@ -173,6 +135,18 @@ body.Fixed {
 	}
 
 #license p {
+	margin-bottom: 10px;
+	font-size: 116.6%;
+	line-height: 2.2;
+	letter-spacing: 2px;
+	}
+/* 勉強していること ------------------------------------------------------------ */
+#studying {
+	overflow: hidden;
+	margin-bottom: 10px;
+	}
+
+#studying p {
 	margin-bottom: 10px;
 	font-size: 116.6%;
 	line-height: 2.2;
