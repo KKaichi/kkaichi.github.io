@@ -170,6 +170,18 @@ body.Fixed {
 	line-height: 2.2;
 	letter-spacing: 2px;
 	}
+/* 資格 ------------------------------------------------------------ */
+#license {
+	overflow: hidden;
+	margin-bottom: 70px;
+	}
+
+#license p {
+	margin-bottom: 10px;
+	font-size: 116.6%;
+	line-height: 2.2;
+	letter-spacing: 2px;
+	}
 /* 連絡先 ------------------------------------------------------------ */
 #Contact {
 	overflow: hidden;
