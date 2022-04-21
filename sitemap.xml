@@ -3,7 +3,7 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-  <loc>https://kkaichi.github.io/</loc>
+  <loc>https://kkaichi.github.io</loc>
   <priority>1.0</priority>
   <lastmod>2022-04-21T09:09:23+09:00</lastmod>
 </url>
@@ -12,5 +12,21 @@
   <priority>0.8</priority>
   <lastmod>2022-04-21T09:09:23+09:00</lastmod>
 </url>
+<url>
+  <loc>https://kkaichi.github.io/image/toeic.pdf</loc>
+  <priority>0.8</priority>
+  <lastmod>2022-04-21T09:09:23+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kkaichi.github.io/image/Universal_Design_Coordinator.pdf</loc>
+  <priority>0.8</priority>
+  <lastmod>2022-04-21T09:09:23+09:00</lastmod>
+</url>
+<url>
+  <loc>https://kkaichi.github.io/image/tmu.pdf</loc>
+  <priority>0.8</priority>
+  <lastmod>2022-04-21T09:09:23+09:00</lastmod>
+</url>
+
 
 </urlset>
