@@ -127,7 +127,7 @@ body.Fixed {
 #Profile {
 	overflow: hidden;
 	margin-bottom: 10px;
-	background-image: url("../image/仁平海地.jpeg");
+	background-image: url("/image/仁平海地.jpeg");
 	background-position: right center;
 	background-size: 150px 200px;
 	}
