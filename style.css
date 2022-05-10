@@ -127,6 +127,10 @@ body.Fixed {
 #Profile {
 	overflow: hidden;
 	margin-bottom: 10px;
+	background-image: url("../img/仁平海地.jpeg");
+	background-position: right center;
+	width:150;
+	height:200;
 	}
 
 #Profile p {
