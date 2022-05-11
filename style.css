@@ -5,7 +5,14 @@
 
 
 /* font 12pxの場合：9px-75% / 10px-83.3% / 11px-91.6% / 12px-100% / 13px-108.3% / 14px-116.6% / 15px-125% / 16px-133.3% / 18px-150% / 20px-166.6% */
-
+img {
+-webkit-touch-callout:none;
+  -webkit-user-select:none;
+  -moz-touch-callout:none;
+  -moz-user-select:none;
+  touch-callout:none;
+  user-select:none;
+}
 /* 共有 -------------------------------------------------------- */
 body,
 #Home h1,
