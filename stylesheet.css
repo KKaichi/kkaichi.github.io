@@ -1,0 +1,101 @@
+body{
+  font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+}
+
+.header {
+  background-color: #ceccf3;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.header-list li{
+  list-style:none;
+  float:left;
+  padding:33px 20px;
+}
+
+.main {
+  background-color: #fbfbfb;
+  padding: 10px 40px;
+ 
+}
+
+.Others h4{
+  text-decoration:underline;
+}
+
+.Qualfication{
+  padding :0px 10px;
+}
+
+.Skill img{
+  width:  100px;      
+  height: 100px;      
+}
+.Skill figure{
+  float:left;
+}
+
+.Skill li{
+  list-style:none;
+}
+
+
+.Skill figure{
+  text-align:center;
+  color:#797979;
+}
+
+
+.footer {
+  background-color: #ceccf3;
+  padding: 0px 20px 40px 40px;
+}
+
+.footer-main li{
+  list-style:none;
+}
+
+.footer-list ul{
+  text-align: right;
+}
+
+.footer-list li{
+  padding: 0px 10px;
+  display: inline;
+}
+
+.account{
+  text-align: center;
+  margin:20px 0px;
+}
+
+.account img{
+    border-radius: 50%; 
+    width:  60px;      
+    height: 60px;       
+}
+
+.account ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.account li{
+  display: inline;
+}
+
+.copylight{
+  text-align: center;
+}
+
+h4 {
+  clear: both;
+  }
+  
