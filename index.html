@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja-JP">
-	<head>		
+  <head>		
 		<meta charset="UTF-8">
 		<title>仁平海地のホームページ</title>
 
@@ -18,7 +18,7 @@
 		<link rel="start" href="https://kkaichi.github.io/" title="仁平海地のホームページ">
 		<meta property="og:type" content="website">	
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:300,400">
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="stylesheet.css">
 
 		<script src="http://www.google.com/jsapi"></script>
 		<script src="external/js/jquery-1.8.3.min.js"></script>
@@ -31,94 +31,99 @@
 			var siteURL = 'https://kkaichi.github.io'
 		</script>
 	</head>	
+  <body>
+    <div class="header">
+      <div class="header-logo">
+        Kaichi Nihira
+      </div>
+      <div class="header-list">
+        <ul>
+          <li>About</li>
+          <li>Education</li>
+          <li>Experience</li>
+          <li>Paper</li>
+          <li>Product</li>
+          <li>Others</li>
+        </ul>
+      </div>
+    </div>
 
-	<body id="Home">
-		<div id="Header">			
-			<dl>
-				<dt>人間は考える葦である</dt>
-				<dd><a href="#Profile">プロフィール</a> <a href="#license">資格</a> <a href="#Background">経歴</a> <a href="#studying">研究</a> <a href="#Contact">研究</a> <a href="#Contact">連絡先</a> <a href="#Share">リンク集</a>　最終更新:2022/05/10<dd>
-			</dl>
-		</div>
-		<p>現在見えなくしています</p>
-		<a href="https://github.com/KKaichi/Evaluate/tree/main/templates/index.html">ポジネガ判定</a>
-		<!--
-		<div id="Logo" class= "back-image">
-			<h1>	
-				<span>にひら かいち</span><br>
-				仁平 海地<br>
-				<span>Nihira　Kaichi</span>-->
-				<!--<span style="-ms-filter:'alpha(opacity=0)'; filter:alpha(opacity=0); opacity:0;"><script src="external/js/log.js"></script></span>-->
-<!--			</h1>
-		</div>
-		<div id="Wrapper">
-			<div id="Profile">
-				<h3>プロフィール</h3>
-				<p>氏名 : 仁平 海地(にひら かいち)<br>
-				<img src="/image/仁平海地.jpeg" width="150" height="200"  oncontextmenu="return false;"><br>
-				   生年月 : 2000年 2月<br>
-				   所属 : 東京都立大学大学院 システムデザイン研究科 情報科学域 高間研究室<br>
-					住所 : 東京都 東村山市<br>
-				   趣味 : ファッション(<a href="https://www.instagram.com/kkkaichi/">Instagram</a>)
-				</p>
-				<p>
-					仁平海地のホームページを閲覧して頂きましてありがとうございます．	
-				</p>
-				<p>
-					※ホームページでの発言は個人の見解であり、所属する組織の公式見解ではありません．
-				</p>
-			</div>
-			<div id="license">
-				<h3>資格</h3>
-				<p>
-					基本情報技術者　FE(2021年(令和3年度)秋季) <a href="image/fe.pdf">pdf</a><br>
-					TOEIC Listening & Reading TOTAL SCORE 775 (2021/01) <a href="image/toeic.pdf">pdf</a><br>
-					ユニバーサルデザインコーディネーター3級(3rd Class Universal Design Coordinator)(2020) <a href="image/Universal_Design_Coordinator.pdf">pdf</a>
-				</p>
-				<h4>表彰</h4>
-				<p>
-					2020年度東京都立大学システムデザイン学部成績優秀者表彰 <a href="image/tmu.pdf">pdf</a>
-				</p>
-			</div>
-			<div id="Background">
-				<h3>経歴</h3>
-				<p>2018年4月 首都大学東京 システムデザイン学部 情報科学科 入学<br>
-				2020年4月 首都大学東京から東京都立大学に改名<br>
-				2022年3月 東京都立大学 システムデザイン学部 情報科学科　卒業 学士:情報科学<br>
-				2022年4月 東京都立大学大学院 システムデザイン研究科 情報科学域 入学<br>
-				(予定 : 2024年3月 東京都立大学大学院 システムデザイン研究科 情報科学域 卒業)</p>
-			</div>
-			<div id="studying">
-				<h3>研究</h3>
-				<p>
-				外部に公開できる情報(概要など)をスライドにまとめました．
-				</p>
-				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQTbBAx1Zo0RSJAXz6SkdfAiuEVNT_72QDN4fblX4vuAlPXULkv6iBwh_9lL5A7Mc38oDEHzuZKZlIK/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="380" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-			</div>
-			<div id="Contact">
-				<h3>連絡先</h3>
-				<p>
-				e-mail : nihira-kaichi@ed.tmu.ac.jp
-				</p>
-			</div>
-		</div>
+    <div class="main">
+      <div class="About">
+        <h2>About</h2>
+        First year master's student at Tokyo Metropolitan University, Graduate School of System Design, Department of Computer Science.<br>
+        I'm a member of the Takama lab., where I conduct research on item recommendation using personal values.<br>
+        I'm a serious person and received an award for outstanding academic achievement from the Faculty of System Design, Tokyo Metropolitan University in the year 2020.<br>
+        Recently, I have been doing muscle training to maintain my health.
+      </div>
+      <div class="Education">
+        <h2>Education</h2>
+        <ul>
+          <li>2022/04-</li>
+          Master's student, Tokyo Metropolitan University, Graduate School of System Design, Department of System Design, Computer Science
+          <li>2018/04-2022/03</li>
+          Bachelor's students, Tokyo Metropolitan University, Faculty of System Design, Department of Computer Science
+          <li>2015/04-2018/03</li>
+          Senior high school student, Kinjyo High School Regular Course
+        </ul>
+      </div>
+      <div class="Experience">
+        <h2>Experience</h2>
+        <ul>
+          <li>2022/08-2022/08</li>
+          <b>Rakuten Group, Inc.</b><br>
+          I joined in the Futakotamagawa summer camp (5-day internship).
+        </ul>
+      </div>
+      <div class="Paper">
+        <h2>Paper</h2>
+        <ul>
+          <li>K.Nihira, H.Shibata and Y.Takama, Proposal of Personal Value-Based User Modeling Without Attribute Evaluation,
+            The 10th International Symposium on Computational Intelligence and Industrial Applications (ISCIIA2022) Sep.23- Sep.25, 2022, Beijing, China</li>
+        </ul>
+      </div>
+      <div class="Others">
+        <h2>Others</h2>
+        <div class="Skill">
+          <h4>Skill</h4>
+            <figure><img src="./image/python.webp" title="python"><figcaption>Python</figcaption></figure>
+            <figure><img src="./image/html-css.jpeg" title="HTML&CSS"><figcaption>HTML & CSS</figcaption></figure>
+        </div>
+        <div class="Qualfication">
+          <h4>Qualfication</h4>
+          <ul>
+            <li>Fundamental Information Technology Engineer Examination (基本情報技術者)</li>
+            <li>TOEIC Listening & Reading 775 (2021/01)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
+    <div class="footer">
+      <div class="footer-main">
+        <ur>
+          <li>Kaichi Nihira</li>
+          <li>contact: nihira-kaichi@ed.tmu.ac.jp</li>
+        </ur>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li><a href="https://www.tmu.ac.jp/">Tokyo Metropolitan University</a></li>
+          <li><a href="https://krectmt3.sd.tmu.ac.jp/">Takama lab.</a></li>
+        </ul>
+      </div>
+      <div class="account">
+        <ul>
+          <li><a href="https://twitter.com/home"><img src="./image/twitter.png" title="twitter"></a></li>
+          <!--<img src="./image/instagram.png" title="instagram">-->
+          <li><a href="https://github.com/"><img src="./image/github.png" title="github"></a></li>
+          <li><a href="https://atcoder.jp/users/nKAICHI"><img src="./image/atcoder.jpg" title="atcoder"></a></li>
+        </ul>
+      </div>
+      <div class="copylight"><br>
+        <small>© 2022 Kaichi Nihira</small>
+      </div>
+    </div>
 
-		<div id="About">
-		<h4>リンク集</h4>
-			<div id="Share">				
-				<ul>
-					<li>
-						<a class="Border" href="https://krectmt3.sd.tmu.ac.jp/">Takama Lab.</a>
-					</li>
-					<li>
-						<a class="Border" href="https://www.sd.tmu.ac.jp/">TMU　システムデザイン学部</a>
-					</li>
-					<li>
-						<a class="Border" href="https://cs.sd.tmu.ac.jp/index.html">TMU 情報科学科</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</body>
-</html>-->
-
+  </body>
+</html>
