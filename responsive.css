@@ -1,11 +1,4 @@
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
-  .header-lists {
-    display: block;
-    text-align: center;
-  }
-  .header_list li {
-    margin: 0 0 40px;
-    text-align: center;
-  }
+  .header-list {display:none}
 }
