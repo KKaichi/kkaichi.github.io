@@ -1,108 +1,187 @@
-body{
-  font-family: "ヒラギノ明朝 Pro W3","Hiragino Mincho Pro","ＭＳ Ｐ明朝","MS PMincho",serif;
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
 }
 
-.header {
-  background-color: #ceccf3;
-  color: #0067c0;
-  height: 90px;
+body {
+  font-family: "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
 }
+
+header {
+  background-color: #;
+  color: #000000;
+  height: 8rem;
+}
+
 
 .header-logo {
   float: left;
-  font-size: 36px;
-  padding: 20px 40px;
+  padding: 2rem 20rem 2rem 5rem;
 }
 
-.header-list li{
-  list-style:none;
-  float:left;
-  padding:33px 20px;
+.header-list li {
+  list-style: none;
+  float: left;
+  padding: 3rem 1rem;
 }
 
-.main {
-  background-color: #fbfbfb;
-  padding: 10px 40px;
- 
-}
-
-.Product img{
-  border-radius: 50%; 
-  width:  60px;      
-  height: 60px;
-  border: 1px solid #797979;  
-}
-
-.Others h4{
-  text-decoration:underline;
-}
-
-.Qualfication{
-  padding :0px 10px;
-}
-
-.Skill img{
-  width:  100px;      
-  height: 100px;      
-}
-.Skill figure{
-  float:left;
-}
-
-.Skill li{
-  list-style:none;
+main {
+  padding: 0rem 4rem 0rem 4rem;
 }
 
 
-.Skill figure{
-  text-align:center;
-  color:#797979;
+main h2 {
+  border-bottom: solid 1px #CCC;
+  padding-bottom: 0.2rem;
+}
+
+main h3 {
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+}
+
+
+main div {
+  padding-bottom: 1rem;
+}
+
+main p {
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+main a {
+  text-decoration: none;
+  color: #00aa6e;
+}
+
+.education ul {
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+.education li {
+  padding: 0.3rem;
+}
+
+.experience ul {
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.experience li {
+  padding: 0.3rem;
+}
+
+.paper ul {
+  padding: 0rem 2rem 0rem 2rem;
+}
+
+.paper li {
+  padding: 0.3rem;
+}
+
+.qualfication ul {
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+.qualfication li {
+  padding: 0.3rem;
+}
+
+.award ul {
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+.award img {
+  width: 30%;
+  height: 30%;
+  display: block;
+  margin: auto;
+}
+
+.award li {
+  padding: 0.3rem;
+}
+
+.product ul {
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+.product li {
+  padding: 0.3rem;
+}
+
+
+
+.Others h4 {
+  text-decoration: underline;
+}
+
+.Qualfication {
+  padding: 0px 10px;
+}
+
+.Skill img {
+  width: 100px;
+  height: 100px;
+}
+
+.Skill figure {
+  float: left;
+}
+
+.Skill li {
+  list-style: none;
+}
+
+
+.Skill figure {
+  text-align: center;
+  color: #797979;
 }
 
 
 .footer {
-  background-color: #ceccf3;
-  padding: 0px 20px 40px 40px;
+  padding: 8rem 5rem 2rem 5rem;
 }
 
-.footer-main li{
-  list-style:none;
+.footer-main li {
+  list-style: none;
 }
 
-.footer-list ul{
+.footer-list ul {
   text-align: right;
 }
 
-.footer-list li{
+.footer-list li {
   padding: 0px 10px;
   display: inline;
 }
 
-.account{
+.account {
   text-align: center;
-  margin:20px 0px;
+  margin: 20px 0px;
 }
 
-.account img{
-    border-radius: 50%; 
-    width:  60px;      
-    height: 60px;       
+.account img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
 }
 
-.account ul{
+.account ul {
   list-style-type: none;
   padding-left: 0;
 }
 
-.account li{
+.account li {
   display: inline;
 }
 
-.copylight{
+.copylight {
   text-align: center;
 }
 
 h4 {
   clear: both;
-  }
-  
+}
