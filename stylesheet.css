@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: #171515;
   color: #ffffff;
 }
 
@@ -10,8 +10,6 @@ body {
 }
 
 header {
-  background-color: #;
-  color: #000000;
   height: 8rem;
 }
 
@@ -93,10 +91,17 @@ main a {
 }
 
 .award img {
-  width: 30%;
-  height: 30%;
-  display: block;
-  margin: auto;
+  width: 40%;
+  height: auto;
+}
+
+.image_ul {
+  display: flex;
+  text-align: center;
+}
+
+.image_li {
+  list-style: none;
 }
 
 .award li {
@@ -110,8 +115,6 @@ main a {
 .product li {
   padding: 0.3rem;
 }
-
-
 
 .Others h4 {
   text-decoration: underline;
