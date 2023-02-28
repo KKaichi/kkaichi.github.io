@@ -8,9 +8,8 @@ body {
 }
 
 header {
-  height: 8rem;
+  height: 2rem;
 }
-
 
 .header-logo {
   float: left;
@@ -26,7 +25,6 @@ header {
 main {
   padding: 0% 4% 0% 4%;
 }
-
 
 main h2 {
   border-bottom: solid 1px #CCC;
