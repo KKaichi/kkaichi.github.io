@@ -70,6 +70,7 @@ main li {
 
 .account li {
   display: inline;
+  padding: 0% 1% 1% 0%;
 }
 
 .copylight {
