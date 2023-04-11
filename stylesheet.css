@@ -54,6 +54,7 @@ main li {
 }
 
 .account {
+  width: 100%;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -69,6 +70,7 @@ main li {
 }
 
 .account ul {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
